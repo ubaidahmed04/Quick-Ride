@@ -1,12 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import MapCard from '../../Components/MapCard';
+import SearchBar from '../../Components/SearchBar';
+// import MapCard from '../../Components/MapCard';
 
 const HomeScreen = () => {
   return (
     <View >
-      
-      <MapCard/>
+      <SearchBar/>
       
     </View>
   );
